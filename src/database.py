@@ -4,7 +4,7 @@ import hashlib
 from datetime import datetime, timedelta
 
 # Konstanta untuk tarif denda per hari (misalnya, Rp 500)
-FINE_PER_DAY = 500
+FINE_PER_DAY = 50000
 
 class Database:
     def __init__(self, db_file="perpustakaan.db"):
